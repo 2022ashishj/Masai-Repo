@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first{
+            height: 10vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: black;
+        }
+        .first>h4{
+            color: aliceblue;
+        }
+        .second{
+            height: 70vh;
+            width: 100%;
+            background-image: url(https://assets.entrepreneur.com/content/3x2/2000/20180404140346-GettyImages-713835137.jpeg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+        }
+        .third{
+            padding: 20px; 
+            margin-left: 350px;
+            margin-top: 50px;
+        }
+        .fourth{
+            height: 100px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .fourth>img{
+            height: 90px;
+            width: 120px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <h4>LIPS</h4>
+        <h4>EYES</h4>
+        <h4>FACE</h4>
+        <h4>NAILSS</h4>
+        <h4>SKINCARE</h4>
+        <h4>ACCESSORIES</h4>
+        <h4>GIFTS & KITS</h4>
+        <h4>BESTSELLERS</h4>
+        <h4>NEW LAUNCHES</h4>
+        <h4>OFFERS</h4>
+        <h4>BLOG</h4>
+    </div>
+    <div class="second">
+        <div style="background-color: white; padding: 20px; margin: 30px;">
+          <form action="">
+            <div>
+                <label for="name">enter your name :</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">enter your email :</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="pet">Choose a pet :</label>
+                <select id="pet">
+                        <option value="">--Please choose an option--</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="tiger">Tiger</option>
+                        <option value="parrot">Parrot</option>
+                        <option value="piegon">Piegon</option>
+                </select>
+            </div>
+            <div >
+                <fieldset class="select1">
+                    <legend>Select a maintenance drone:</legend>
+                  
+                    <div>
+                      <input type="radio" id="huey" name="drone" value="huey"  />
+                      <label for="huey">Huey</label>
+                    </div>
+                  
+                    <div>
+                      <input type="radio" id="dewey" name="drone" value="dewey" checked/>
+                      <label for="dewey">Dewey</label>
+                    </div>
+                  
+                    <div>
+                      <input type="radio" id="louie" name="drone" value="louie" />
+                      <label for="louie">Louie</label>
+                    </div>
+                  </fieldset>
+            </div>
+            <div>
+                 <label for="date">choose a time for appointment</label>
+                 <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <button style="background-color: yellow;">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div class="third">
+            <div style="color: antiquewhite;">
+             <p>GET YOUR TICKET AT HALF PRICE UNTIL DEC 2023</p>
+             <p>HURRY UP,LIMITED SEATS</p>
+            </div>
+            <div style="display: flex;gap: 10px;">
+                <div style="background-color: blue; color: antiquewhite;">
+                 <h3>REGISTER NOW</h3>
+                </div>
+                <div style="background-color: antiquewhite;">
+                  <h3>LEARN NOW</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  style="margin-left: 300px; margin-right: 300px;margin-top: 30px;">
+        <h3 style="font-family: audiowide;">Flower Video</h3>
+        <video autoplay style="font-family: Audiowide; height: 100px; width: 200px;" >
+            <source src="./flower_376567.webm" type="video/webm"/>
+        </video>
+    </div>
+    <div class="fourth">
+        <img src="https://logowik.com/content/uploads/images/google-logo-2020.jpg" alt="">
+        <img src="https://funnel.io/hubfs/HubSpot-Logo.png" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Vodafone_Idea_logo.svg/1200px-Vodafone_Idea_logo.svg.png" alt="">
+        <img src="https://www.bibs.co.in/blog-image/1634715395.jpg" alt="">
+    </div>
+</body>
+</html>
