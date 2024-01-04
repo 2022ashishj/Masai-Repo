@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     @keyframes slide {
+       from {
+        transform: scaleX(1);
+     }
+      to {
+       transform: scaleX(2.3);
+     }
+   }
+  .slide{
+    background-color: aqua;
+    height: 100px;
+    width: 30%;
+    border-radius: 10px;
+    animation: slide 2s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   @keyframes first {
+       from {
+        transform: scalex(1);
+     }
+      to {
+       transform: scaleX(2.3);
+     }
+    }
+   .first{
+    background-color: aqua;
+    height: 100px;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: first 2s forwards;
+    
+   }
+   .second{
+    background-color: aqua;
+    height: 100px;
+    width: 30%;
+    border-radius: 10px;
+    animation: slide 2s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .third{
+    background-color: aqua;
+    height: 100px;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: first 2s forwards;
+   }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="slide">BOX1</div>
+    </div>
+    <div style="display: flex;justify-content: flex-end;">
+        <div class="slide">BOX1</div>
+    </div>
+    <div>
+        <div class="second">BOX3</div>
+    </div>
+    <div style="display: flex;justify-content: flex-end;">
+        <div class="third">BOX4</div>
+    </div>
+</body>
+</html>

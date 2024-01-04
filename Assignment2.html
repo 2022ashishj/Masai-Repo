@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: black;
+      
+    }
+    @keyframes Apple{
+        20% {
+        transform: scale(1.2)
+      }
+      50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+      }
+      100% {
+        transform: scale(1.75);
+        opacity: 1;
+      }
+    }
+    .Apple{
+        height: 300px;
+        width: 400px;
+        background-color: black;
+        border-radius: 3%;
+        box-shadow: rgba(133, 2, 87, 0.468) 0px 19px 38px, rgba(123, 1, 105, 0.22) 0px 15px 12px;
+        animation: Apple 1s infinite;
+    }   
+    </style>
+</head>
+<body>
+    <div class="Apple">
+        
+    </div>
+</body>
+</html>
